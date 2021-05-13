@@ -34,5 +34,5 @@ variable "egprot" {
 }
 
 variable "ingressmap" {
-  default = [{inport=80,inprot="tcp"},{inport=22,inprot="tcp"}]
+  default = [{inport=80,inprot="tcp"},{inport=22,inprot="tcp"},{inport=443,inprot="tcp"},{inport=8080,inprot="tcp"}]
 }
